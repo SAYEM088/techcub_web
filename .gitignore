@@ -1,0 +1,54 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# build and output
+/.next/
+/out/
+/build
+
+# testing
+/coverage
+
+# public assets (optional)
+# comment this out if you want to keep your images and public files
+/public
+/src/app/favicon.ico
+
+# environment and config files
+.env*
+*.config.*
+*.mjs
+*.json
+
+# optional: if you only want to exclude specific config files instead of all .json
+# /jsconfig.json
+# /next.config.mjs
+# /postcss.config.mjs
+# /package.json
+# /package-lock.json
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
